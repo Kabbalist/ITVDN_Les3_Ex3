@@ -17,5 +17,9 @@ namespace ITVDN_Les3_Ex3
         public double MaxSpeed { get; set; }
         public double Acceleration { get; set; }
         public double YearOfProduction { get; set; }
+        public void ShowParameters()
+        {
+            Console.WriteLine();
+        }
     }
 }
